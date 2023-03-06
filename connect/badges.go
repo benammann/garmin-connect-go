@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	connect "github.com/abrander/garmin-connect"
+	connect "github.com/benammann/garmin-connect-go"
 )
 
 const gotIt = "✓"

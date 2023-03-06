@@ -6,17 +6,17 @@ This is nothing but a proof of concept, and the API may change at any time.
 
 [![GoDoc][1]][2]
 
-[1]: https://godoc.org/github.com/abrander/garmin-connect?status.svg
-[2]: https://godoc.org/github.com/abrander/garmin-connect
+[1]: https://godoc.org/github.com/benammann/garmin-connect-go?status.svg
+[2]: https://godoc.org/github.com/benammann/garmin-connect-go
 
 # Install
 
 The `connect` CLI app can be installed using `go install`, and the package using `go get`.
 
 ```
-go install github.com/abrander/garmin-connect/connect@latest
+go install github.com/benammann/garmin-connect-go/connect@latest
 ```
 
 ```
-go get github.com/abrander/garmin-connect@latest
+go get github.com/benammann/garmin-connect-go@latest
 ```

@@ -203,7 +203,7 @@ func (c *Client) newRequest(method string, url string, body io.Reader) (*http.Re
 	}
 
 	// Play nice and give Garmin engineers a way to contact us.
-	req.Header.Set("User-Agent", "github.com/abrander/garmin-connect")
+	req.Header.Set("User-Agent", "github.com/benammann/garmin-connect-go")
 
 	// Yep. This is needed for requests sent to the API. No idea what it does.
 	req.Header.Add("nk", "NT")
